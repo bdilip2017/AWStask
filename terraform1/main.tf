@@ -45,7 +45,7 @@ resource "aws_lambda_function" "test_lambda" {
   handler       = "index.handler"
   runtime       = "nodejs14.x"
   s3_bucket 	= "awstaskterraformdilip"
-  s3_key    	= "taskDilip.zip"
+  s3_key    	= "taskNodejs.zip"
   ephemeral_storage {
     size = 10240 # Min 512 MB and the Max 10240 MB
   }
