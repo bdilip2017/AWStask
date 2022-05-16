@@ -8,6 +8,7 @@ the function should accept an input parameter to return a specific output from t
 file.
 
 terraform folder - Contains code to deploy EC2 instance and ELB and its related components and statefile gets generated in S3 bucket " " with filename "key".
+
 terraform folder1 - Contains code to deploy Lambda function which retrieves zip package file from S3 bucket and its required IAM role,policy and statefile gets generated in S3 bucket "" with filename "key1".
 
 Lambda function is created in Nodejs.
